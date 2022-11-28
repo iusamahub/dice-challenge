@@ -1,6 +1,6 @@
 var randomNumber1 = Math.floor(Math.random()*6)+1; // 1-6
 
-var randomDice = "Dice" + randomNumber1 + ".png"; // Dice1.png - Dice6.png
+var randomDice = "dice" + randomNumber1 + ".png"; // Dice1.png - Dice6.png
 
 var randomImageSource = "./images/" + randomDice; // ./images/Dice1.png - ./images/Dice6.png
 
@@ -12,7 +12,7 @@ image1.setAttribute("src", randomImageSource);
 
 var randomNumber2 = Math.floor(Math.random()*6)+1; // 1-6
 
-var randomDice2 = "Dice" + randomNumber2 + ".png"; // Dice1.png - Dice6.png
+var randomDice2 = "dice" + randomNumber2 + ".png"; // Dice1.png - Dice6.png
 
 var randomImageSource2 = "./images/" + randomDice2; // ./images/Dice1.png - ./images/Dice6.png
 
